@@ -2,6 +2,8 @@
 
 How we use the **Project board**, **Issues**, and **Milestones** on GitHub.
 
+*Maintained by Jaed Pizarro. Applies to all CodeCrunch Labs products: PSJ DoughDrop, HackUniversity Worldwide (codecrunchworldwide-development), and Pablos.*
+
 ---
 
 ## TL;DR — the three tools, one sentence each
@@ -27,12 +29,12 @@ Quick audit of where we are today (June 2026):
 
 ## 1) The Team Project (board)
 
-We run **one org-level Project** called **"CodeCrunch Labs — Delivery"** that pulls Issues and PRs from all product repos. One place to see everything.
+We run **one Project** called **"CodeCrunch Labs — Delivery"** that pulls Issues and PRs from all product repos. One place to see everything.
 
-### How to create it (Scrum Master, one-time)
-1. Go to `github.com/orgs/CODECRUNCHLABS` → **Projects** → **New project** → start from **Board**.
+### How to create it (one-time setup)
+1. Go to your Projects → **New project** → start from **Board**.
 2. Name it **CodeCrunch Labs — Delivery**.
-3. Add the repos: open the Project → `…` menu → **Settings** → **Manage access**, and in each repo (`PSJDoughDrop`, `codecrunchworldwide-development`, `pablosdelivery`) you can also use **Add item** to link issues.
+3. Add the repos: open the Project and use **Add item** to link issues from each repo (`PSJDoughDrop`, `codecrunchworldwide-development`, `pablosdelivery`).
 
 ### The board columns (Status field)
 We use a simple flow. Every item lives in exactly one column:
@@ -118,7 +120,7 @@ In codecrunchworldwide we've used Issues to **host images** (`panelimage01`, `pi
 **A Milestone = a sprint or a release.** Not a person, not a backlog.
 
 ### Our convention
-- One Milestone per **sprint**, named by date so it sorts: **`Sprint 01 — Jun 23 to Jul 4`**.
+- One Milestone per **sprint**, named by date so it sorts: **`Sprint 1 — Jun 22 to Jul 3`**.
 - Give it a **due date** = the last day of the sprint. GitHub then shows a live **% complete** bar as issues close.
 - Optionally, named **release** milestones for big targets: `PSJ DoughDrop — MVP`, `Pablos — Sprint 0`.
 
@@ -154,11 +156,11 @@ Sprints are **2 weeks**. The org promise is **a demo every Friday** — so we re
 
 ## 5) Quick-start checklist
 
-- [ ] Create org Project **CodeCrunch Labs — Delivery** (Board) and add the 3 repos.
+- [ ] Create the Project **CodeCrunch Labs — Delivery** (Board) and add the 3 repos.
 - [ ] Add fields: Product, Priority, Size, Sprint (Iteration, 2-week).
 - [ ] Turn on the auto-workflows (added→Backlog, closed→Done, PR→In Review).
 - [ ] Create the shared **labels** in each repo.
-- [ ] Retire `Jaed Backlog` / `Santiago Backlog`; create **`Sprint 01 — <dates>`** with a due date.
+- [ ] Retire `Jaed Backlog` / `Santiago Backlog`; create **`Sprint 1 — <dates>`** with a due date.
 - [ ] Add Issue Templates to each repo's `.github/ISSUE_TEMPLATE/`.
 - [ ] Move existing open issues onto the board with assignee + labels.
 - [ ] Run the first **sprint planning**; book the recurring **Friday demo**.
