@@ -152,7 +152,7 @@ Sprints are **2 weeks**. The org promise is **a demo every Friday** — so we re
 
 ---
 
-## 5) Quick-start checklist (Scrum Master)
+## 5) Quick-start checklist
 
 - [ ] Create org Project **CodeCrunch Labs — Delivery** (Board) and add the 3 repos.
 - [ ] Add fields: Product, Priority, Size, Sprint (Iteration, 2-week).
