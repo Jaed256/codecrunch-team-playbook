@@ -2,8 +2,6 @@
 
 How we use the **Project board**, **Issues**, and **Milestones** on GitHub.
 
-*Maintained by Jaed Pizarro (Scrum Master). Applies to all CodeCrunch Labs products: PSJ DoughDrop, HackUniversity Worldwide (codecrunchworldwide-development), and Pablos.*
-
 ---
 
 ## TL;DR — the three tools, one sentence each
